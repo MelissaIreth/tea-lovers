@@ -17,7 +17,28 @@
 	</section>
 	<section class="color">
 		<div class="newsletter">
-			<button id="suscribirse">Suscríbete a nuestro newsletter</button>
+			<div class="te-gusta">
+			<h1>¿TE GUSTA EL TÉ?</h1>
+			</div>
+
+		<div for="Nombre" class="label">Nombre:</div>
+		<input type="text" name="name" id="name" placeholder="Escribe tú nombre"><br>
+		<div for="Email" class="label">Email:</div>
+		<input type="text" name="mail" id="mail" placeholder="Escribe tu Email"><br>
+		<div for="Direccion" class="label">Dirección:</div>
+		<input type="text" name="address" id="address" placeholder="Escribe tu Dirección"><br>
+		<div for="Te-favorito" class="label">Té favorito:</div>
+			<select name="pack-te" id="select-te">
+				<option value="" selected="selected" disabled>Selecciona tu té</option>
+				<option value="negro">Té Negro</option>
+				<option value="verde">Té Verde</option>
+				<option value="rojo">Té Rojo</option>
+				<option value="blanco">Té Blanco</option>
+				<option value="oolong">Té Oolong</option>
+			</select><br>
+			<input type="checkbox" name="check" id="check"><div class="check"><label for="check">Quiero recibir muestra gratis</label></div><br>
+
+			<button id="suscribirse" value="submit" id="suscribirse" onclick="validacion(); return false">Suscríbete a nuestro newsletter</button>
 		</div>
 	</section>
 	<section id="about">
@@ -64,5 +85,6 @@
 	<footer>
 		<p>Té Encanto: Av. Italia 1317, Providencia.</p>
 	</footer>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 	</body>
 </html>
