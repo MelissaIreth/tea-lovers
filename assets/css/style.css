@@ -96,3 +96,24 @@ footer{
 	padding: 20px 30px;
 	color: white;
 }
+
+.te-gusta h1{
+	font-weight: bolder;
+	font-size: 5rem;
+	line-height: 5rem;
+	text-transform: uppercase;
+	color: white;
+}
+.datos-te{
+	color: white;
+}
+
+#name, #mail, #address{
+	border: 5px solid white;
+	border-radius: 15px;
+	padding: 0 150px;
+}
+#select-te{
+	border: 5px solid white;
+	border-radius: 15px;
+}
